@@ -40,7 +40,7 @@ namespace ConsoleApp9
         }
         public string GetFullInfo()
         {
-            return $"Notebook: {Name}, Açıklama: {Description}, Stok: {Count}, Fiyat: {Price}$, RAM: {RAM}GB, Depolama: {Storage}GB";
+            return $"Notebook: {Name}, description: {Description}, count: {Count}, price: {Price}$, RAM: {RAM} storage: {Storage}";
         }
         public void ShowFullData()
         {
