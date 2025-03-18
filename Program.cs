@@ -12,7 +12,7 @@ namespace ConsoleApp9
         static void Main(string[] args)
         {
             
-           Notebook notebook = new Notebook("Asus ROG", "Gaming Laptop", 0, 2500.99, 16, 512);
+           Notebook notebook = new Notebook("lenova", " Laptop", 0, 2500.99, 16, 512);
             notebook.Sale();
             notebook.ShowFullData();
 
